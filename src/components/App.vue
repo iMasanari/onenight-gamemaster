@@ -127,16 +127,15 @@ export default createComponent({
 
 <style>
 @font-face {
-  font-family: 美咲ゴシック;
-  src: url("https://cdn.leafscape.be/misaki/misaki_gothic_web.woff2")
-    format("woff2");
+  font-family: "MisakiGothic2nd";
+  src: url("~/generated/fonts/misaki_gothic_2nd.woff") format("woff");
 }
 
 body,
 input,
 select,
 button {
-  font-family: 美咲ゴシック, sans-serif;
+  font-family: MisakiGothic2nd, sans-serif;
   font-size: 1rem;
 }
 
