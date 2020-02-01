@@ -56,7 +56,7 @@ export default createComponent({
   },
   setup(props, { emit }) {
     const updateEffect = (e: Event) =>
-      emit('update:emit', (e.currentTarget as HTMLInputElement).checked)
+      emit('update:effect', (e.currentTarget as HTMLInputElement).checked)
 
     const updateSorcerer = (e: Event) =>
       emit('update:sorcerer', (e.currentTarget as HTMLInputElement).checked)
